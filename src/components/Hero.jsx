@@ -54,7 +54,7 @@ const Hero = () => {
       </div>
       <div className='mt-16 flex justify-center flex-col items-center border-t border-gray-300 pt-8'>
         <h1 className='font-bold text-4xl'>Tech Stack: </h1>
-        <div className='mt-6 flex flex-wrap gap-4'>
+        <div className='mt-6 max-w-3xl flex flex-wrap gap-4'>
           <div className=''>
             <img src={Html} alt='' />
           </div>
@@ -90,7 +90,7 @@ const Hero = () => {
           <a href='https://github.com/PrasannaJung'>
             <img src={Github} alt='' />
           </a>
-          <a href='https://twitter.com/prasannaj_dev'>
+          <a href=''>
             <img src={Twitter} alt='' />
           </a>
           <a href='https://www.linkedin.com/in/prasanna-jung-thapa-832202216/'>
