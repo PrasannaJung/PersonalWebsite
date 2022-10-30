@@ -19,8 +19,8 @@ import {
 const Hero = () => {
   return (
     <>
-      <div className='mt-24 flex flex-col-reverse md:flex-row ,justify-center md:justify-between items-center px-10 gap-10 text-center md:text-left'>
-        <div>
+      <div className='mt-24 flex flex-col-reverse md:flex-row ,justify-center md:justify-evenly items-center px-10 gap-10 text-center md:text-left'>
+        <div className='md:pl-4'>
           <h1 className='mt-4 text-2xl md:text-4xl leading-loose'>
             Hi, I am Prasanna. <br /> A {""}
             <span className='font-semibold'>
@@ -44,7 +44,7 @@ const Hero = () => {
             </p>
           </div>
         </div>
-        <div className='md:pr-10 grid'>
+        <div className='md:pr-24 grid'>
           <img
             className='w-96 aspect-square object-cover rounded-[50%]'
             src={Image}
