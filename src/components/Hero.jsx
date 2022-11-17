@@ -16,6 +16,7 @@ import {
   Bootstrap,
   Next,
 } from "../utility/Images";
+import Projects from "./Projects";
 const Hero = () => {
   return (
     <>
@@ -52,7 +53,7 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className='mt-16 flex justify-center flex-col items-center border-t border-gray-300 pt-8'>
+      <div className='mt-16 flex justify-center flex-col items-center border-t border-gray-300 py-8'>
         <h1 className='font-bold text-4xl'>Tech Stack: </h1>
         <div className='mt-6 max-w-3xl flex flex-wrap gap-4'>
           <div className=''>
@@ -84,13 +85,14 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      <Projects />
       <div className='mt-10 flex justify-center flex-col items-center border-t border-gray-300 pt-8 '>
         <h1 className='text-2xl font-bold'>Connect With Me: </h1>
         <div className='flex gap-6 items-center mt-3'>
           <a href='https://github.com/PrasannaJung'>
             <img src={Github} alt='' />
           </a>
-          <a href=''>
+          <a href='https://twitter.com/prasannaj_dev'>
             <img src={Twitter} alt='' />
           </a>
           <a href='https://www.linkedin.com/in/prasanna-jung-thapa-832202216/'>
